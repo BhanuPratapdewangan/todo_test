@@ -1,7 +1,7 @@
 
 
 
-@media screen and  (orientation: landscape) {
+/* @media screen and  (orientation: landscape) {
     .addTodo {
       flex-direction: row;
     }
@@ -11,4 +11,4 @@
     .addTodo {
       flex-direction: column;
     }
-  }
+  } */
