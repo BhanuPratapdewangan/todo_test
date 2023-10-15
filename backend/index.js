@@ -6,7 +6,7 @@ import './db/config.js';
 import todoModel from './db/todoList.js';
 import userModel from './db/user.js';
 
-const port = env.process.PORT | 2200;
+const port = process.env.PORT | 2200;
 
 const app = express();
 
