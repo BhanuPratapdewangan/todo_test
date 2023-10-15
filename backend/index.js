@@ -6,6 +6,8 @@ import './db/config.js';
 import todoModel from './db/todoList.js';
 import userModel from './db/user.js';
 
+const port = env.process.PORT | 2200;
+
 const app = express();
 
 app.use(express.json());
@@ -128,6 +130,6 @@ app.put('/updatetodo/:id', async (req, res) => {
 
 })
 
-app.listen(2200, () => {
-    console.log(`Server started on port ${2200}`);
+app.listen(port, () => {
+    console.log(`Server started on port ${port}`);
 });
