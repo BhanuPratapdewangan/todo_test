@@ -6,12 +6,12 @@ import './db/config.js';
 import todoModel from './db/todoList.js';
 import userModel from './db/user.js';
 
-const port = process.env.PORT | 2200;
-
 const app = express();
 
 app.use(express.json());
 app.use(cors());
+
+const port = process.env.PORT | 2200;
 
 const ObjectId = mongoose.Types.ObjectId;
 
