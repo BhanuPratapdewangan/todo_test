@@ -1,7 +1,7 @@
 
 import mongoose from "mongoose";
 
-var MONGODB_URL = "mongodb+srv://bhanupratap04123:ADYB$d-uT9YeYWi@cluster0.eyfrwj5.mongodb.net/?retryWrites=true&w=majority";
+var MONGODB_URL = "mongodb+srv://bhanupratap04123:cNLFQl5xyms5o3pD@cluster0.eyfrwj5.mongodb.net/?retryWrites=true&w=majority";
 
 mongoose.connect(MONGODB_URL, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => {
