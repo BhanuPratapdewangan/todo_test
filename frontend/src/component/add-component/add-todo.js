@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import '../add-component/add-component.css';
+import '../add-component/add-todo.css';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 
@@ -60,7 +61,7 @@ const AddTodo = () => {
 
   return (
     <>
-      <div className='container w-75 d-flex justify-content-between mt-5'>
+      <div className='container w-75 d-flex justify-content-between mt-5 addTodo'>
         <input type='number' className='form-control w-25' value={id} placeholder='Enter Id' onChange={e => setId(e.target.value)} ></input>
         <input type='text' className='form-control w-25' value={title} placeholder='Enter title' onChange={e => setTitle(e.target.value)} ></input>
         <input type='checkbox' className='form-check-input' value={completed} onChange={e => setCompleted(e.target.checked)} ></input>

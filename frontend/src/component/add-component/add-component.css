@@ -1,0 +1,14 @@
+
+
+
+@media (orientation: landscape) {
+    .addTodo {
+      flex-direction: row;
+    }
+  }
+  
+  @media (orientation: portrait) {
+    .addTodo {
+      flex-direction: column;
+    }
+  }
