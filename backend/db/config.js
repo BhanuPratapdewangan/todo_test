@@ -1,9 +1,7 @@
 
 import mongoose from "mongoose";
 
-var MONGODB_URL = "mongodb+srv://bhanupratap04123:cNLFQl5xyms5o3pD@cluster0.eyfrwj5.mongodb.net/?retryWrites=true&w=majority";
-
-mongoose.connect(MONGODB_URL, { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect("mongodb+srv://bhanupratap04123:VJ05ZVFIj0CBjWUl@cluster0.eyfrwj5.mongodb.net/?retryWrites=true&w=majority", { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => {
     console.log('Connected to MongoDB');
   })
